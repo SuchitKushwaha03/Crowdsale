@@ -1,0 +1,12 @@
+.exit
+hardhat increaseTime 1d
+increaseTime 1d
+await ethers.provider.send('evm_setNextBlockTimestamp', "1676658629"); 
+)
+console.log(currentTimestamp
+let currentTimestamp = latestBlock.timestamp;
+let latestBlock = await ethers.provider.getBlock(currentBlock)
+let currentBlock = await ethers.provider.getBlockNumber()
+ethers.provider.getBlockNumber().then((result) =>{ethers.provider.getBlock(result)}).then((value)=>console.log(value))
+ethers.provider.getBlockNumber().then((result) =>{ethers.provider.getBlock(resule)}).then((value)=>console.log(value))
+ether.provider.getBlockNumber().then((result) =>{ethers.provider.getBlock(resule)}).then((value)=>console.log(value))
